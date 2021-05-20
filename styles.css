@@ -1,0 +1,207 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  background-color: #161616 !important;
+  padding: 5.5rem 0rem;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  height: 5.5rem;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+nav #logo {
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 2.5rem;
+}
+
+nav #logo span {
+  font-size: 4rem;
+  color: #59c959;
+}
+.logoCustom{
+  font-family: "Lobster", cursive;
+
+color: white;
+
+font-size: 2.5rem;
+}
+
+.spanCustom{
+  font-size: 4rem;
+
+color: #59c959;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4rem 2rem;
+}
+
+.hero .about-info {
+  width: 50%;
+  color: #b9b8b8;
+  font-size: 1.3rem;
+}
+
+.hero .Img img {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  right: 70px;
+  -webkit-transform: translate(15%, -10%) scale(1.3);
+          transform: translate(15%, -10%) scale(1.3);
+}
+
+.cardGrid {
+  margin: 1rem auto;
+  width: 90vw;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: row dense;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-columns: 40vw 40vw;
+      grid-template-columns: 40vw 40vw;
+}
+
+.imageCard {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card {
+  height: auto;
+  padding: 2rem;
+  margin: 1rem 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0.4rem;
+  -webkit-box-shadow: 0 0 10px 0 white;
+          box-shadow: 0 0 10px 0 white;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+
+.card .cardImg {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card h2 {
+  text-align: center;
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.card .imageInfo {
+  color: #646464;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  z-index: 1;
+}
+.footer-box{
+  margin-top: 100px;
+}
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+  color: rgb(250, 248, 248);
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid rgb(250, 248, 248);
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:rgb(250, 246, 246);
+  margin-bottom:0;
+}
+
+/*# sourceMappingURL=styles.css.map */
